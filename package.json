@@ -6,19 +6,25 @@
 	"license": "MIT",
 	"author": "raine",
 	"type": "module",
-	"exports": {
-		".": "./out/init.lua"
-	},
-	"types": "./out/index.d.ts",
+	"main": "out/init.luau",
+	"types": "out/index.d.ts",
 	"files": ["out"],
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w"
 	},
+	"dependencies": {
+		"@rbxts/luau-polyfill": "catalog:prod"
+	},
 	"devDependencies": {
+		"@commitlint/cli": "catalog:script",
+		"@commitlint/config-conventional": "catalog:script",
+		"@commitlint/types": "catalog:script",
 		"@isentinel/eslint-config": "catalog:lint",
 		"@isentinel/tsconfig": "catalog:types",
 		"@rbxts/compiler-types": "catalog:types",
+		"@rbxts/react": "catalog:peer",
+		"@rbxts/react-roblox": "catalog:peer",
 		"@rbxts/types": "catalog:types",
 		"eslint": "catalog:lint",
 		"eslint-plugin-pnpm": "catalog:lint",
@@ -26,9 +32,15 @@
 		"eslint-plugin-react-naming-convention": "catalog:lint",
 		"eslint-plugin-react-roblox-hooks": "catalog:lint",
 		"eslint-plugin-react-x": "catalog:lint",
+		"husky": "catalog:script",
 		"jiti": "catalog:script",
+		"lint-staged": "catalog:lint",
 		"roblox-ts": "catalog:build",
 		"typescript": "catalog:build"
+	},
+	"peerDependencies": {
+		"@rbxts/react": "*",
+		"@rbxts/react-roblox": "*"
 	},
 	"packageManager": "pnpm@10.24.0"
 }
