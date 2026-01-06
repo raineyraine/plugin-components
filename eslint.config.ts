@@ -14,6 +14,7 @@ export default isentinel(
 		rules: {
 			"package-json/require-exports": "off",
 			"ts/explicit-function-return-type": "off",
+			"ts/no-non-null-assertion": "off",
 		},
 	},
 	{
