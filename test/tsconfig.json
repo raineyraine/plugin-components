@@ -1,6 +1,8 @@
 {
 	"extends": "@isentinel/tsconfig/roblox",
 	"compilerOptions": {
+		"baseUrl": "src",
+		"paths": {},
 		"types": ["types/plugin"]
 	}
 }

@@ -1,3 +1,1 @@
-import { makeHello } from "../../out";
-
-makeHello("hi");
+import { createPlugin } from "@rbxts/plugin-components";
