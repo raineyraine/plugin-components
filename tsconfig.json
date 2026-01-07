@@ -6,5 +6,5 @@
 		"types": ["types/plugin"],
 		"declaration": true
 	},
-	"exclude": ["test", "out"]
+	"exclude": ["test/", "node_modules/", "out/"]
 }
