@@ -17,3 +17,5 @@ sourcemap.json
 .env
 
 .vscode/mise-tools/
+
+cache
