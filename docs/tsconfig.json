@@ -1,0 +1,5 @@
+{
+	"extends": "@isentinel/tsconfig/typescript",
+	"include": ["**/*", ".vitepress/**/*"],
+	"exclude": ["node_modules"]
+}
