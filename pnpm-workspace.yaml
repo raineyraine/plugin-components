@@ -2,12 +2,18 @@ packages:
   - src
   - test
 
+catalog:
+  vitepress-plugin-group-icons: ^1.6.5
+
 catalogMode: prefer
 
 catalogs:
   build:
     roblox-ts: ^3.0.0
     typescript: ^5.9.3
+  docs:
+    vitepress: 2.0.0-alpha.15
+    vue: ^3.5.26
   lint:
     '@isentinel/eslint-config': ^4.7.6
     eslint: ^9.39.2

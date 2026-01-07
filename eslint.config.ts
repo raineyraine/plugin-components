@@ -18,8 +18,8 @@ export default isentinel(
 		},
 	},
 	{
-		name: "project/test-rules",
-		files: ["test/**"],
+		name: "project/package-rules",
+		files: ["test/**", "docs/**"],
 		rules: {
 			"package-json/require-attribution": "off",
 			"package-json/require-author": "off",
