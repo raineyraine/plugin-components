@@ -6,6 +6,7 @@ export * from "./components";
 
 // Providers
 export * from "./providers/plugin-provider";
+export * from "./providers/studio-theme-provider";
 
 // Util
 export * from "./util/create-plugin";
