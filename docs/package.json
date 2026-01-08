@@ -9,10 +9,7 @@
 	},
 	"devDependencies": {
 		"vitepress": "catalog:docs",
-		"vue": "catalog:docs"
+		"vitepress-plugin-group-icons": "catalog:docs"
 	},
-	"packageManager": "pnpm@10.24.0",
-	"dependencies": {
-		"vitepress-plugin-group-icons": "catalog:"
-	}
+	"packageManager": "pnpm@10.24.0"
 }

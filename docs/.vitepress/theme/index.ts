@@ -7,7 +7,7 @@ import "virtual:group-icons.css";
 import "./style.css";
 
 export default {
-	enhanceApp({ app, router, siteData }) {
+	enhanceApp() {
 		// ...
 	},
 	extends: DefaultTheme,

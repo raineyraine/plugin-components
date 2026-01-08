@@ -18,6 +18,13 @@ export default isentinel(
 		},
 	},
 	{
+		name: "project/docs-rules",
+		files: ["docs/**"],
+		rules: {
+			"roblox/no-undeclared-scope": "off",
+		},
+	},
+	{
 		name: "project/package-rules",
 		files: ["test/**", "docs/**"],
 		rules: {

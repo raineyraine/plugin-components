@@ -2,13 +2,19 @@
 	"name": "@rbxts/plugin-components",
 	"version": "0.0.0",
 	"description": "React plugin components for Roblox",
-	"keywords": ["roblox", "roblox-ts", "plugin"],
+	"keywords": [
+		"roblox",
+		"roblox-ts",
+		"plugin"
+	],
 	"license": "MIT",
 	"author": "raine",
 	"type": "module",
 	"main": "out/init.luau",
 	"types": "out/index.d.ts",
-	"files": ["out"],
+	"files": [
+		"out"
+	],
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w"
@@ -32,11 +38,13 @@
 		"eslint-plugin-react-naming-convention": "catalog:lint",
 		"eslint-plugin-react-roblox-hooks": "catalog:lint",
 		"eslint-plugin-react-x": "catalog:lint",
+		"eslint-plugin-roblox-ts": "catalog:lint",
 		"husky": "catalog:script",
 		"jiti": "catalog:script",
 		"lint-staged": "catalog:lint",
 		"roblox-ts": "catalog:build",
-		"typescript": "catalog:build"
+		"typescript": "catalog:build",
+		"vitepress": "catalog:docs"
 	},
 	"peerDependencies": {
 		"@rbxts/react": "*",
