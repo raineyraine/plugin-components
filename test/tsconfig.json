@@ -1,8 +1,10 @@
 {
-	"extends": "../tsconfig.options.json",
+	"extends": "../tsconfig.roblox.json",
 	"compilerOptions": {
+		"composite": true,
 		"baseUrl": "src",
 		"paths": {},
+		"typeRoots": ["node_modules/@rbxts"],
 		"types": ["types/plugin"]
 	}
 }

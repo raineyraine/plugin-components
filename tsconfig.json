@@ -1,11 +1,11 @@
 {
-	"extends": "tsconfig.options.json",
+	"extends": "./tsconfig.roblox.json",
 	"compilerOptions": {
 		"baseUrl": "src",
 		"paths": {},
 		"types": ["types/plugin"],
 		"declaration": true
 	},
-	"references": [{ "path": "test" }, { "path": "src" }, { "path": "docs" }],
-	"exclude": ["test/", "node_modules/", "out/", "docs/", "eslint.config.ts"]
+	"references": [{ "path": "test" }],
+	"exclude": ["test/", "node_modules/", "out/", "docs/", "eslint.config.mjs"]
 }
