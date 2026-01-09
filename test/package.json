@@ -1,0 +1,21 @@
+{
+	"name": "plugin-components-test",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w"
+	},
+	"dependencies": {
+		"@rbxts/plugin-components": "workspace:",
+		"@rbxts/react": "catalog:peer",
+		"@rbxts/react-roblox": "catalog:peer"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "catalog:types",
+		"@rbxts/types": "catalog:types",
+		"roblox-ts": "catalog:build",
+		"typescript": "catalog:build"
+	},
+	"packageManager": "pnpm@10.24.0"
+}
