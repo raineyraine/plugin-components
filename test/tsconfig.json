@@ -1,5 +1,5 @@
 {
-	"extends": "@isentinel/tsconfig/roblox",
+	"extends": "../tsconfig.options.json",
 	"compilerOptions": {
 		"baseUrl": "src",
 		"paths": {},

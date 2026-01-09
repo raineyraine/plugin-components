@@ -1,10 +1,11 @@
 {
-	"extends": "@isentinel/tsconfig/roblox",
+	"extends": "tsconfig.options.json",
 	"compilerOptions": {
 		"baseUrl": "src",
 		"paths": {},
 		"types": ["types/plugin"],
 		"declaration": true
 	},
+	"references": [{ "path": "test" }, { "path": "src" }, { "path": "docs" }],
 	"exclude": ["test/", "node_modules/", "out/", "docs/", "eslint.config.ts"]
 }
