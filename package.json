@@ -2,13 +2,19 @@
 	"name": "@rbxts/plugin-components",
 	"version": "0.1.0",
 	"description": "React plugin components for Roblox",
-	"keywords": ["roblox", "roblox-ts", "plugin"],
+	"keywords": [
+		"roblox",
+		"roblox-ts",
+		"plugin"
+	],
 	"license": "MIT",
 	"author": "raine",
 	"type": "module",
 	"main": "out/init.luau",
 	"types": "out/index.d.ts",
-	"files": ["out"],
+	"files": [
+		"out"
+	],
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w"
@@ -44,5 +50,5 @@
 		"@rbxts/react": "*",
 		"@rbxts/react-roblox": "*"
 	},
-	"packageManager": "pnpm@10.24.0"
+	"packageManager": "pnpm@10.27.0"
 }
