@@ -1,3 +1,5 @@
+// @ts-check
+// LOOK-INTO: Returning this file back to eslint.config.ts -- something to do with eslint and jiti not cooperating
 import isentinel from "@isentinel/eslint-config";
 
 export default isentinel(
